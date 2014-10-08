@@ -1,0 +1,29 @@
+{
+	"name" : "Twitter Follow Back",
+	"version" : "1",
+	"manifest_version" : 2,
+	"description" : "Easily follow back your twitter followers using jQuery",
+
+	"background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "icons": {
+        "128": "icon.png"
+    },
+
+	"browser_action": {
+    	"default_icon": "icon_browser.png",
+    	"default_title": "Twitter Follow Back"
+	},
+
+	"permissions": [
+	  "tabs", "http://*/*"
+	],
+
+	"content_scripts": [ {
+		"js": [ "jquery.min.js", "background.js" ],
+		"matches": [ "http://*/*", "https://*/*"]
+	}]
+}
