@@ -1,4 +1,4 @@
-#Easily follow back your twitter followers using jQuery
+#Easily follow back your twitter followers
 
 ##How to use
 

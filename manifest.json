@@ -2,7 +2,7 @@
 	"name" : "Twitter Follow Back",
 	"version" : "1",
 	"manifest_version" : 2,
-	"description" : "Easily follow back your twitter followers using jQuery",
+	"description" : "Easily follow back your twitter followers",
 
 	"background": {
         "scripts": ["background.js"],
