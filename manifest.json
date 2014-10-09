@@ -19,11 +19,13 @@
 	},
 
 	"permissions": [
-	  "tabs", "http://*/*"
+	  "tabs",
+	  "http://*/*",
+	  "activeTab"
 	],
 
 	"content_scripts": [ {
-		"js": [ "jquery.min.js", "background.js" ],
+		"js": ["jquery.min.js","background.js" ],
 		"matches": [ "http://*/*", "https://*/*"]
 	}]
 }
